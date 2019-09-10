@@ -1,0 +1,47 @@
+pipeline {
+
+  agent any
+  stages {
+
+    stage('Position in SUT folder') {
+      steps {
+      }
+      
+    }
+
+    stage('Build SUT') {
+      steps {
+        sh 'cd code/template/testman'
+        withMaven(maven: 'MVN3', jdk: 'JDK8') {
+          mvn clean package
+        }
+        sh 'cd ../..'
+      }
+    }
+
+    stage('Position in CAMP setting folder') {
+      steps {
+      }
+      
+    }
+
+    stage('camp generate') {
+      steps {
+        sh 'camp generate -d .'
+      }
+    }
+    stage('camp realize') {
+      steps {
+        sh 'camp realize -d .'
+        zip zipFile: 'conf.zip', archive: true, dir: 'out'
+      }
+    }
+    stage('camp execute') {
+      steps {
+        withMaven(maven: 'MVN3', jdk: 'JDK8') {
+          sh 'camp execute -d .'
+        }
+      }
+    }
+  }
+}
