@@ -34,7 +34,7 @@ pipeline {
     }
     stage('Publish reports') {
       steps {
-        step([$class: 'ArtifactArchiver', artifacts: '**/statistics.json'])
+        step([$class: 'ArtifactArchiver', artifacts: '**/out/*'])
       }      
     }
   }
