@@ -13,7 +13,7 @@ pipeline {
       steps {
         sh 'cd code/template/testman'
         withMaven(maven: 'MVN3', jdk: 'JDK8') {
-          mvn clean package
+          sh 'mvn clean package'
         }
         sh 'cd ../..'
       }
@@ -38,9 +38,7 @@ pipeline {
     }
     stage('camp execute') {
       steps {
-        withMaven(maven: 'MVN3', jdk: 'JDK8') {
-          sh 'camp execute -d .'
-        }
+        sh 'camp execute -d .'
       }
     }
   }
