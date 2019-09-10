@@ -8,5 +8,7 @@ services:
 
   testman:
     build: ./testman
+    expose:
+      - "8580"
     ports:
-      - "8080:8080"
+      - "8580:8080"

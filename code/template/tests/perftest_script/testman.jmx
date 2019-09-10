@@ -20,7 +20,7 @@
           <collectionProp name="Arguments.arguments"/>
         </elementProp>
         <stringProp name="HTTPSampler.domain">testman</stringProp>
-        <stringProp name="HTTPSampler.port">8080</stringProp>
+        <stringProp name="HTTPSampler.port">8580</stringProp>
         <stringProp name="HTTPSampler.protocol">http</stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
         <stringProp name="HTTPSampler.path"></stringProp>
@@ -212,7 +212,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/login</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/login</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -266,7 +266,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/login</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/login</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -342,7 +342,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -410,7 +410,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs?page=1&amp;size=10</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs?page=1&amp;size=10</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -478,7 +478,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs?form</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs?form</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -562,7 +562,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcexecutions?form</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcexecutions?form</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -615,7 +615,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcexecutions?form</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcexecutions?form</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -679,7 +679,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcexecutions/1</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcexecutions/1</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -735,7 +735,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs?page=1&amp;size=10</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs?page=1&amp;size=10</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -840,7 +840,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs?form</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs?form</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -894,7 +894,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs?form</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs?form</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -958,7 +958,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs/1</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs/1</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1019,7 +1019,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs?page=1&amp;size=10</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs?page=1&amp;size=10</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1081,7 +1081,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs/1</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs/1</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1131,7 +1131,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs/1</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs/1</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1181,7 +1181,7 @@
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Referer" elementType="Header">
                     <stringProp name="Header.name">Referer</stringProp>
-                    <stringProp name="Header.value">http://localhost:8080/testman/tcs/1</stringProp>
+                    <stringProp name="Header.value">http://testman:8580/testman/tcs/1</stringProp>
                   </elementProp>
                   <elementProp name="Accept-Language" elementType="Header">
                     <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1308,7 +1308,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/login</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/login</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1382,7 +1382,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1444,7 +1444,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcs?page=1&amp;size=10</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcs?page=1&amp;size=10</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1506,7 +1506,7 @@
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcs?form</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcs?form</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1634,7 +1634,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcexecutions?form</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcexecutions?form</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1697,7 +1697,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcexecutions?form</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcexecutions?form</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1761,7 +1761,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcexecutions/1</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcexecutions/1</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1817,7 +1817,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcs?page=1&amp;size=10</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcs?page=1&amp;size=10</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1916,7 +1916,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcs?form</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcs?form</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -1994,7 +1994,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcs/1</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcs/1</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2049,7 +2049,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcs?page=1&amp;size=10</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcs?page=1&amp;size=10</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
@@ -2105,7 +2105,7 @@ vars.put(&quot;executedOn&quot;, randomNext2MonthsDayDate);
               <collectionProp name="HeaderManager.headers">
                 <elementProp name="Referer" elementType="Header">
                   <stringProp name="Header.name">Referer</stringProp>
-                  <stringProp name="Header.value">http://localhost:8080/testman/tcs/1</stringProp>
+                  <stringProp name="Header.value">http://testman:8580/testman/tcs/1</stringProp>
                 </elementProp>
                 <elementProp name="Accept-Language" elementType="Header">
                   <stringProp name="Header.name">Accept-Language</stringProp>
