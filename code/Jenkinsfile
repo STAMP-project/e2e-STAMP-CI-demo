@@ -5,11 +5,11 @@ pipeline {
 
     stage('Build SUT') {
       steps {
-        sh 'cd code/template/testman'
         withMaven(maven: 'MVN3', jdk: 'JDK8') {
-          sh 'mvn clean package'
+          sh '''cd code/template/testman
+          mvn clean package
+          cd ../..'''
         }
-        sh 'cd ../..'
       }
     }
 
