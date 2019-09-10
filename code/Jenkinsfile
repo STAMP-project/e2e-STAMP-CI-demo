@@ -15,18 +15,21 @@ pipeline {
 
     stage('camp generate') {
       steps {
-        sh 'camp generate -d .'
+        sh ''' cd code
+        camp generate -d .'''
       }
     }
     stage('camp realize') {
       steps {
-        sh 'camp realize -d .'
-        zip zipFile: 'conf.zip', archive: true, dir: 'out'
+        sh ''' cd code
+        camp realize -d .'''
+        zip zipFile: 'conf.zip', archive: true, dir: 'code/out'
       }
     }
     stage('camp execute') {
       steps {
-        sh 'camp execute -d .'
+        sh ''' cd code
+        camp execute -d .'''
       }
     }
   }
