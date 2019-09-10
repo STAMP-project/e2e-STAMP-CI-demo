@@ -32,5 +32,9 @@ pipeline {
         camp execute -d .'''
       }
     }
+    stage('Publish reports')
+      steps {
+        step([$class: 'ArtifactArchiver', artifacts: '**/statistics.json'])
+      }
   }
 }
