@@ -42,7 +42,7 @@ pipeline {
               allowMissing: false,
               alwaysLinkToLastBuild: false,
               keepAll: true, 
-              reportDir: 'code/camp-perf-test/out/' + reportDirectories[i] + '/test-reports',
+              reportDir: reportDirectories[i] + '/test-reports',
               reportFiles: 'index.html', 
               reportName: reportDirectories[i]
             ])
