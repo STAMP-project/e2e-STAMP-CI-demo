@@ -35,7 +35,7 @@ pipeline {
       steps {
         script {
           sh 'ls code/camp-perf-test/out > reportDirNames.txt'
-          def reportDirectories = readFile('reportDirNames.txt).split("\\r?\\n")
+          def reportDirectories = readFile('reportDirNames.txt').split("\\r?\\n")
           sh 'rm -f reportDirNames.txt'
           for (i = 0; i < reportDirectories.size(); i++) {
             publishHTML (target: [
