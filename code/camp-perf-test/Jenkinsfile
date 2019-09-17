@@ -44,7 +44,7 @@ pipeline {
               keepAll: true, 
               reportDir: reportDirectories[i] + '/test-reports',
               reportFiles: 'index.html', 
-              reportName: reportDirectories[i]
+              reportName: reportDirectories[i].tokenize('/').last()
             ])
           }
         }
