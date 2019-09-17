@@ -37,7 +37,7 @@ pipeline {
             alwaysLinkToLastBuild: false,
             keepAll: true, 
             reportDir: 'code/camp-perf-test/out/config_1/test-reports',
-            report files: 'index.html', 
+            reportFiles: 'index.html', 
             reportName: 'config_1'
           ])
       }      
