@@ -22,7 +22,8 @@ pipeline {
       steps {
         sh ''' cd code/camp-perf-test
         camp realize -d .'''
-        zip zipFile: 'conf.zip', archive: true, dir: 'code/camp-perf-test/out'
+        zip zipFile: 'testconf.zip', archive: true, dir: 'code/camp-perf-test/out', glob: '**/*.yml'
+        zip zipFile: 'dockerfiles.zip', archive: true, dir: 'code/camp-perf-test/out', glob: '**/Dockerfile'
       }
     }
     stage('camp execute') {
