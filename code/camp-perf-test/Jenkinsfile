@@ -33,7 +33,7 @@ pipeline {
     }
     stage('Publish reports') {
       steps {
-          publishHtml target: [
+          publishHTML target: [
             allowMissing: false,
             alwaysLinkToLastBuild: false,
             keepAll: true, 
