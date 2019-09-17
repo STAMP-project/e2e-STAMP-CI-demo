@@ -6,29 +6,28 @@ pipeline {
     stage('Build SUT') {
       steps {
         withMaven(maven: 'MVN3', jdk: 'JDK8') {
-          sh '''cd code/template/testman
-          mvn clean package
-          cd ../..'''
+          sh '''cd code/camp-perf-test/template/testman
+          mvn clean package'''
         }
       }
     }
 
     stage('camp generate') {
       steps {
-        sh ''' cd code
+        sh ''' cd code/camp-perf-test
         camp generate -d .'''
       }
     }
     stage('camp realize') {
       steps {
-        sh ''' cd code
+        sh ''' cd code/camp-perf-test
         camp realize -d .'''
-        zip zipFile: 'conf.zip', archive: true, dir: 'code/out'
+        zip zipFile: 'conf.zip', archive: true, dir: 'code/camp-perf-test/out'
       }
     }
     stage('camp execute') {
       steps {
-        sh ''' cd code
+        sh ''' cd code/camp-perf-test
         camp execute -d .'''
       }
     }
