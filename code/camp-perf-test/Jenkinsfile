@@ -33,14 +33,20 @@ pipeline {
     }
     stage('Publish reports') {
       steps {
-          publishHTML (target: [
-            allowMissing: false,
-            alwaysLinkToLastBuild: false,
-            keepAll: true, 
-            reportDir: 'code/camp-perf-test/out/config_1/test-reports',
-            reportFiles: 'index.html', 
-            reportName: 'config_1'
-          ])
+        script {
+          sh 'ls code/camp-perf-test/out > reportDirNames.txt'
+          def reportDirectories = readFile('reportDirNames.txt).split("\\r?\\n")
+          sh 'rm -f reportDirNames.txt'
+          for (i = 0; i < reportDirectories.size(); i++) {
+            publishHTML (target: [
+              allowMissing: false,
+              alwaysLinkToLastBuild: false,
+              keepAll: true, 
+              reportDir: 'code/camp-perf-test/out/' + reportDirectories[i] + '/test-reports',
+              reportFiles: 'index.html', 
+              reportName: reportDirectories[i]
+            ])
+          }
         }
       }      
   }
