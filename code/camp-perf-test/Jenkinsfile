@@ -33,8 +33,6 @@ pipeline {
     }
     stage('Publish reports') {
       steps {
-        step([$class: 'ArtifactArchiver', artifacts: '**/statistics.json'])
-        script {
           publishHtml target: [
             allowMissing: false,
             alwaysLinkToLastBuild: false,
@@ -43,7 +41,6 @@ pipeline {
             report files: 'index.html', 
             reportName: 'config_1'
           ]
-        }
       }      
     }
   }
