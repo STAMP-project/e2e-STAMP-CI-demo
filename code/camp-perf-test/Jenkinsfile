@@ -32,7 +32,6 @@ pipeline {
       }
     }
     stage('Publish reports') {
-      steps {
           publishHTML target: [
             allowMissing: false,
             alwaysLinkToLastBuild: false,
@@ -42,6 +41,5 @@ pipeline {
             reportName: 'config_1'
           ]
       }      
-    }
   }
 }
