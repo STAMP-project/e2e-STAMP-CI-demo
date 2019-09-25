@@ -1,0 +1,1 @@
+# Which are the real world projects leveraging STAMP in the CI?
