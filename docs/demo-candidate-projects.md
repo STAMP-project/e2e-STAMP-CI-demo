@@ -12,6 +12,6 @@ At the end following projects have been selected:
 
 In order to perform experiments, all these projects have been cloned in the STAMP GitHub space:
 
- - [Cloned Joram](https://github.com/STAMP-project/joram), cloned from [official Gitlab repository](https://gitlab.ow2.org/joram)
-  - [Cloned Lutece](https://github.com/STAMP-project/lutece-demo-site-forms), cloned from [official Lutence Demo site repository](https://github.com/lutece-platform/lutece-demo-site-forms)
-  - [Cloned Authzforce](https://github.com/STAMP-project/authzforce-core), cloned from [official Gitlab repository](https://gitlab.ow2.org/authzforce/core/)
+ - [Cloned Joram](https://github.com/STAMP-project/joram), cloned from [official Joram Gitlab repository](https://gitlab.ow2.org/joram)
+  - [Cloned Lutece](https://github.com/STAMP-project/lutece-demo-site-forms), cloned from [official Lutece Demo site repository](https://github.com/lutece-platform/lutece-demo-site-forms)
+  - [Cloned Authzforce](https://github.com/STAMP-project/authzforce-core), cloned from [official AuthzForce Core Gitlab repository](https://gitlab.ow2.org/authzforce/core/)
