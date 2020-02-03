@@ -22,7 +22,7 @@ At the core of this scenario you find the CI/CD server, based on an instance of 
 
 Want to know more? Please go to following sections:
 
-1. **[Demo detailed content](docs/demo-content.md)**: see how the three pillars are presensted in the demo.
+1. **[Demo detailed content](docs/demo-content.md)**: see how the three pillars are presented in the demo.
 1. **[Candidate projects](docs/demo-candidate-projects.md)**: see which are the real-world open source projects that are involved in the demo;
 1. **[Behind the scenes](docs/demo-internals.md)**: see how we did it (and how you can set it up on your own premises)
 
